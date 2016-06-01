@@ -2,10 +2,22 @@ package yourpackage;
 
 import processing.core.PApplet;
 
+/*** 
+ * When working with Processing in Eclipse:
+ * - download the Processing IDE because it contains the core libraries
+ * - in Project Properties, click Add External JARs and then locate core.jar
+ * - rename this class and its package to something suitable for your project
+ * - update the values in the call to PApplet.main() with the new package and class
+ * 
+ * @version June 1, 2016
+ *
+ */
+
 public class YourPApplet extends processing.core.PApplet {
 
 	public static void main(String args[]) {
-		// Call the main method as implemented in PApplet, passing the name of your class
+		// Call the main method as implemented in PApplet, passing your class and package
+		// When you change the package and class names, update the following line
 		PApplet.main(new String[] { "yourpackage.YourPApplet" });
 		// Alternatively, start in presentation mode
 		// PApplet.main(new String[] {"--present", "yourpackage.YourPApplet" });
