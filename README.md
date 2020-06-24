@@ -1,7 +1,7 @@
 # ProcessingTemplate
 Starter code for Processing projects.  In order to compile, you must verify that 
-the Java archive "core.jar" has been added to the build path.  See the installation-images folder
-for some screenshots using Eclipse.
+the Java archive "core.jar" has been added to the build path.  
+See the installation-images folder for some example screenshots using Eclipse.
 
 # Points to consider
 * Your class must import processing.core.PApplet
